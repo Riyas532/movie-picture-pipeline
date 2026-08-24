@@ -25,3 +25,5 @@ export default function App() {
     </div>
   );
 }
+
+// Frontend CD push trigger validation
