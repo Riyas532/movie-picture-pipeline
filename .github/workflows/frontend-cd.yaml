@@ -80,7 +80,7 @@ jobs:
         working-directory: starter/frontend
         run: |
           docker build \
-            --build-arg REACT_APP_MOVIE_API_URL=http://localhost:5000 \
+            --build-arg REACT_APP_MOVIE_API_URL=http://a4757dcd3f10e4a98bdbd9c5ad02898b-263867031.us-east-1.elb.amazonaws.com \
             --tag ${{ vars.FRONTEND_ECR_REPOSITORY }}:${{ github.sha }} .
 
       - name: Push Docker image to ECR
