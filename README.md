@@ -413,10 +413,8 @@ kustomize build | kubectl apply -f -
 
 ## Deployed Application
 
-Frontend UI:
-
+### Frontend UI
 http://a052a6a0eefe04ecaa96dbb135d92fdf-2122130568.us-east-1.elb.amazonaws.com
 
-Backend API:
-
-http://a4757dcd3f10e4a98bdbd9c5ad02898b-263867031.us-east-1.elb.amazonaws.com
+### Backend API
+http://a4757dcd3f10e4a98bdbd9c5ad02898b-263867031.us-east-1.elb.amazonaws.com/movies
